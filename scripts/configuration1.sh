@@ -1,6 +1,6 @@
 sudo apt-get update -y
-
-sudo mkdir tharindu
+cd /home/ubuntu
+sudo mkdir -p tharindu
 cd tharindu
 touch tharindu.txt
 echo "Hi I'm tharindu" > tharindu.txt
