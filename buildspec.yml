@@ -1,0 +1,25 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      python: 3.x
+    commands:
+      - echo Installing dependencies...
+      - apt-get update -y
+     
+  build:
+    commands:
+      - echo Downloading the .zip file from S3...
+      # - sudo mkdir sankha
+      # - cd sankha
+      # - touch sankha.txt
+      # - echo "Hi I'm Sankha" > sankha.txt
+      
+
+
+      
+
+artifacts:
+  files:
+    - '**/*'
