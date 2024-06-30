@@ -15,10 +15,7 @@ phases:
       # - cd sankha
       # - touch sankha.txt
       # - echo "Hi I'm Sankha" > sankha.txt
-      
-
-
-      
+         
 
 artifacts:
   files:

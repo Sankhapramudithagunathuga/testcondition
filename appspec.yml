@@ -8,3 +8,6 @@ hooks:
     - location: scripts/configuration.sh
       timeout: 300       
       runas: root
+    - location: scripts/configuration1.sh
+      timeout: 300       
+      runas: root
