@@ -11,10 +11,10 @@ phases:
   build:
     commands:
       - echo Downloading the .zip file from S3...
-      # - sudo mkdir sankha
-      # - cd sankha
-      # - touch sankha.txt
-      # - echo "Hi I'm Sankha" > sankha.txt
+      - sudo mkdir test
+      - cd test
+      - touch test.txt
+      - echo "Hi I'm Sankha" > test.txt
          
 
 artifacts:
