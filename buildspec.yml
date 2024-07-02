@@ -12,6 +12,7 @@ phases:
     commands:
       - echo Downloading the .zip file from S3...
       - sudo mkdir test
+      - sudo mkdir test2
       - cd test
       - touch test.txt
       - echo "Hi I'm Sankha" > test.txt
