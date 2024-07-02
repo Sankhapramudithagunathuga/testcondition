@@ -16,7 +16,8 @@ phases:
       - cd test
       - touch test.txt
       - echo "Hi I'm Sankha" > test.txt
-      - cd /test21
+      - cd ..
+      - cd test21
       - touch test2.txt
       - echo "Hi I'm Sankhag dchdbc" > test2.txt
          
