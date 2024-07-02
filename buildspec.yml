@@ -12,10 +12,13 @@ phases:
     commands:
       - echo Downloading the .zip file from S3...
       - sudo mkdir test
-      - sudo mkdir test2
+      - sudo mkdir test21
       - cd test
       - touch test.txt
       - echo "Hi I'm Sankha" > test.txt
+      - cd /test21
+      - touch test2.txt
+      - echo "Hi I'm Sankhag dchdbc" > test2.txt
          
 
 artifacts:
