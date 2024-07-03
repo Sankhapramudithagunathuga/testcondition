@@ -1,0 +1,21 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      python: 3.x
+    commands:
+      - echo Installing dependencies...
+      - apt-get update -y
+     
+  build:
+    commands:
+      
+      - cd abcd
+      - touch abcd.txt
+      - echo "Hi I'm Sankha" > abcd.txt
+      
+
+artifacts:
+  files:
+    - '**/*'
