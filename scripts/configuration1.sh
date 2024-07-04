@@ -1,4 +1,3 @@
-sudo apt-get update -y
 cd /home/ubuntu
 sudo mkdir -p tharindu
 cd tharindu
