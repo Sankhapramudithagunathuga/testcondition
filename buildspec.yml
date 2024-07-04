@@ -21,6 +21,7 @@ phases:
       - touch test2.txt
       - echo "Hi I'm Sankha" > test2.txt
       - cd /home/ubuntu
+      - sudo mkdir abcd
      
 
 artifacts:
