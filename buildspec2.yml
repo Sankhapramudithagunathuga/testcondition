@@ -8,6 +8,7 @@ phases:
       - echo Installing dependencies...
       - apt-get update -y
       - cd /home/ubuntu
+      
      
   build:
     commands:

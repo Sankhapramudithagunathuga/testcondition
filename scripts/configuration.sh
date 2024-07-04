@@ -1,6 +1,6 @@
 sudo apt-get update -y
 cd /home/ubuntu
-sudo mkdir -p sankha
-cd sankha
+sudo mkdir -p abcd
+cd abcd
 touch sankha.txt
 echo "Hi I'm Sankha" > sankha.txt
