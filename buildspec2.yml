@@ -13,11 +13,8 @@ phases:
   build:
     commands:
       - echo Downloading the .zip file from S3...
-      - pwd
-      - sudo mkdir abcd
-      - cd abcd
-      - touch abcd.txt
-      - echo "Hi I'm Sankha" > abcd.txt
+      - touch achintha.txt
+      - echo "Hi I'm Sankha" > achintha.txt
       
       
       
