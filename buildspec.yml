@@ -20,6 +20,8 @@ phases:
       - cd test2
       - touch test2.txt
       - echo "Hi I'm Sankha" > test2.txt
+      - pwd
+      - ls
      
      
      
