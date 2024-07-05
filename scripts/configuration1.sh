@@ -1,5 +1,3 @@
-cd /home/ubuntu
-sudo mkdir -p tharindu
-cd tharindu
-touch tharindu.txt
-echo "Hi I'm tharindu" > tharindu.txt
+cd /home/ubuntu/test2
+touch achintha.txt
+echo "Hi I'm Sankha" > achintha.txt
