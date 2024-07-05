@@ -12,6 +12,8 @@ phases:
      
   build:
     commands:
+      - pwd
+      - ls
       - cd /home/ubuntu/test2
       - echo Downloading the .zip file from S3...
       - touch achintha.txt
