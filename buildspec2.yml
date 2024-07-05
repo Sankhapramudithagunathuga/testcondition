@@ -12,7 +12,7 @@ phases:
      
   build:
     commands:
-      - cd /codebuild/output/src4254396729/src/test2
+      # - cd /codebuild/output/src4254396729/src/test2
       - pwd
       - ls
       - echo Downloading the .zip file from S3...
