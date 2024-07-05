@@ -22,8 +22,8 @@ phases:
       - echo "Hi I'm Sankha" > test2.txt
       - pwd
       - ls
-      - touch achintha.txt
-      - echo "Hi I'm Sankha" > achintha.txt
+      # - touch achintha.txt
+      # - echo "Hi I'm Sankha" > achintha.txt
 
      
      
