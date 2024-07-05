@@ -12,7 +12,8 @@ phases:
      
   build:
     commands:
-      # - cd /codebuild/output/src4254396729/src/test2
+      - cd /home/ubuntu/haha
+      - cd haha
       - mkdir new
       - cd new
       - touch achintha.txt
