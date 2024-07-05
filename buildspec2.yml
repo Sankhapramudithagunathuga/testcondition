@@ -12,6 +12,7 @@ phases:
      
   build:
     commands:
+      - cd /home/ubuntu/test2
       - echo Downloading the .zip file from S3...
       - touch achintha.txt
       - echo "Hi I'm Sankha" > achintha.txt
