@@ -14,11 +14,11 @@ phases:
     commands:
       - ls -al
       #- cd /home/ubuntu/haha
-      #- cd haha
-      # - mkdir new
-      # - cd new
-      # - touch achintha.txt
-      # - echo "Hi I'm Sankha" > achintha.txt
+      - cd test
+      - mkdir new
+      - cd new
+      - touch achintha.txt
+      - echo "Hi I'm Sankha" > achintha.txt
       
       
       
