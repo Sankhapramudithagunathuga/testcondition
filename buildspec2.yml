@@ -12,12 +12,13 @@ phases:
      
   build:
     commands:
-      - cd /home/ubuntu/haha
-      - cd haha
-      - mkdir new
-      - cd new
-      - touch achintha.txt
-      - echo "Hi I'm Sankha" > achintha.txt
+      - ll
+      #- cd /home/ubuntu/haha
+      #- cd haha
+      # - mkdir new
+      # - cd new
+      # - touch achintha.txt
+      # - echo "Hi I'm Sankha" > achintha.txt
       
       
       
