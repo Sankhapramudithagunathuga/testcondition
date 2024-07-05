@@ -12,7 +12,7 @@ phases:
      
   build:
     commands:
-      - ll
+      - ls -al
       #- cd /home/ubuntu/haha
       #- cd haha
       # - mkdir new
