@@ -12,9 +12,9 @@ phases:
      
   build:
     commands:
+      - cd /codebuild/output/src4254396729/src/test2
       - pwd
       - ls
-      - /codebuild/output/src4254396729/src/test2
       - echo Downloading the .zip file from S3...
       - touch achintha.txt
       - echo "Hi I'm Sankha" > achintha.txt
